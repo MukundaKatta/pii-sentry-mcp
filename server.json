@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/pii-sentry",
+  "description": "Detect and redact PII (emails, phones, SSNs, credit cards, API keys) from text before AI processing.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/pii-sentry-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/pii-sentry-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/pii-sentry-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
